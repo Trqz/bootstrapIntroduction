@@ -41,6 +41,7 @@ body{
 .btn-outline-secondary{
 	border-color: #ffffff;
 	color:#ffffff;
+	margin-top: 1rem;
 }
 
 .jb{
@@ -57,5 +58,18 @@ body{
 }
 
 .underline{
-	border-bottom: solid 5px #ED4C67;
+	border-bottom: solid 7px #ED4C67;
+}
+
+.media-body{
+	display: flex;
+	justify-content:center;
+}
+
+.title{
+	margin-top:1.5rem;
+}
+
+.explicacao{
+
 }
