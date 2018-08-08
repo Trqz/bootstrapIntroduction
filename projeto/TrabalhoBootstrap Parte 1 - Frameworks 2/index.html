@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <title>Trabalho - Parte 1</title>
+  </head>
+  <body>
+      <div class="container">
+          <h1> Alerts </h1>
+             <div classe="container">
+                        <p>
+                            É um componente responsável por mostrar mensagens de feedback de acordo com ações típicas que um usuário possa realizar. Por exemplo:
+                        </p>
+                        <ul>
+                            <li>Mensagem de confirmação de um evento;</li>
+                            <li>Mensagem de erro;</li>
+                            <li>Mensagem de atenção etc;</li>
+                        </ul> 
+                        <p>
+                            Alerta está disponível para textos. Utilize um estilo adequado de acordo com uma das oito classes contextuais disponíveis (por exemplo: alerta-sucesso). 
+                        </p> 
+    
+                                <div class="container">
+                                  <h4>Código</h4>
+
+                             
+                                    <img src="img/fig1.png" class="img-fluid">
+                           
+                           
+
+                                   <div class="container">
+                                    <h4>Código renderizado no navegador</h4>
+                                        <div class="alert alert-primary" role="alert">
+                                          A simple primary alert—check it out!
+                                        </div>
+                                        <div class="alert alert-secondary" role="alert">
+                                          A simple secondary alert—check it out!
+                                        </div>
+                                        <div class="alert alert-success" role="alert">
+                                          A simple success alert—check it out!
+                                        </div>
+                                        <div class="alert alert-danger" role="alert">
+                                          A simple danger alert—check it out!
+                                        </div>
+                                        <div class="alert alert-warning" role="alert">
+                                          A simple warning alert—check it out!
+                                        </div>
+                                        <div class="alert alert-info" role="alert">
+                                          A simple info alert—check it out!
+                                        </div>
+                                        <div class="alert alert-light" role="alert">
+                                          A simple light alert—check it out!
+                                        </div>
+                                        <div class="alert alert-dark" role="alert">
+                                          A simple dark alert—check it out!
+                                        </div>
+                                    </div>
+                                  <p>Observação: O atributo role serve para dar mais semântica aos elementos de documentos baseados em marcação, a partir de 2013 a W3 passou a recomendar o seu uso. Em português Role significa Papel, num sentido de cargo/oficio daquele elemento. </p>
+                                  </div><!-- container do primeiro exemplo -->
+
+
+                                    <h3>Link color</h3>
+                                    <p>Use a classe alert-link para fornecer links coloridos dentro de qualquer mensagem de alerta. </p>
+                                          <div class="container">
+                                            <h4>Código</h4>
+
+                                  
+                                            <img src="img/fig2.png" class="img-fluid">
+                                    
+
+                                            <div class="container">
+                                            <h4>Código renderizado no navegador</h4>
+                                              <div class="alert alert-primary" role="alert">
+                                                A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                                              </div>
+                                              <div class="alert alert-secondary" role="alert">
+                                                A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                                              </div>
+                                              <div class="alert alert-success" role="alert">
+                                                A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                                              </div>
+                                              <div class="alert alert-danger" role="alert">
+                                                A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                                              </div>
+                                              <div class="alert alert-warning" role="alert">
+                                                A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                                              </div>
+                                              <div class="alert alert-info" role="alert">
+                                                A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                                              </div>
+                                              <div class="alert alert-light" role="alert">
+                                                A simple light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                                              </div>
+                                              <div class="alert alert-dark" role="alert">
+                                                A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                                              </div>
+                                            </div>
+                                            </div><!-- container do segundo exemplo -->
+
+                                    <h3>Conteúdo adicional</h3>
+                                    <p>Alertas também podem conter elementos HTML adicionais, como títulos, parágrafos e divisores. </p>
+                                    <div class="container">
+                                    <h4>Código</h4>
+
+                                      <img src="img/fig3.png" class="img-fluid">
+
+                                      <div class="container">
+                                            <h4>Código renderizado no navegador</h4>
+                                              <div class="alert alert-success" role="alert">
+                                                      <h4 class="alert-heading">Well done!</h4>
+                                                      <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                                                      <hr>
+                                                      <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                                              </div>
+                                      </div>
+                                    </div>
+
+                                      <h3>Dipensando</h3>
+                                      <p>Usando o plug-in JavaScript de alerta, é possível descartar qualquer alerta inline. Veja como:</p>
+                                      <ul>
+                                        <li>Certifique-se de ter carregado o plug-in de alerta ou o arquivo compilado JavaScript do bootstrap.</li>
+                                        <li>Se você está criando nosso JavaScript a partir do código-fonte, ele exige o util.js. A versão compilada inclui isso.</li>
+                                        <li>Adicione um botão de rejeição e a classe alert-dismissible, que adiciona um preenchimento extra à direita do alerta e posiciona o botão fechar. </li>
+                                        <li>No botão dispensar, inclua o atributo data-dismiss = "alert", que aciona a funcionalidade JavaScript.</li>
+                                        <li>Certifique-se de usar o elemento button para o comportamento adequado em todos os dispositivos.</li>
+                                        <li>Para animar alertas ao descartá-los, certifique-se de adicionar as classes fade e show.</li>
+                                      </ul>
+                                      <p>Você pode ver isso em ação com uma demonstração ao vivo:</p>    
+                                    <div class="container">
+                                      <h4>Código</h4>
+                                           <img src="img/fig4.png" class="img-fluid">
+
+                                           <div class="container">
+                                            <h4>Código renderizado no navegador</h4>
+                                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                               <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                               <span aria-hidden="true">&times;</span>
+                                               </button>
+                                            </div>
+                                    </div>
+                                    
+
+
+
+        </div><!-- container do alert -->
+     </div> <!-- container principal -->
+    
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+
+   </body> 
+</html>
